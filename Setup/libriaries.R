@@ -1,4 +1,6 @@
 #libraries
+library(bookdown)
+
 
 ##shiny family
 library(shiny)
