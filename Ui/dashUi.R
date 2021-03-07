@@ -10,8 +10,8 @@ dashUi <- function(id) {
                         ')),
                            tags$script( setHeightScript )
                 ),
-                tabItems( 
-                        tabItem( tabName = "tabAttitudeGUI",attitudeGUI(id)),
+                tabItems(
+                        tabItem( class = "active",tabName = "tabAttitudeGUI",attitudeGUI(id)),
                         tabItem( tabName = "hateReplyGUI",
                                  fluidRow(
                                          style = 'padding: 15px !important;',
@@ -135,18 +135,12 @@ setHeightScript <-  '
           setHeight = function() {
             var window_height = $(window).height();
             var header_height = $(".main-header").height();
-
             var boxHeight = window_height - header_height - 200;
-
             $("#graph_container").height(boxHeight);
             $("#plotSentimentGraph").height(boxHeight - 90);
             $("tabBox").height(boxHeight);
- 
-            
           };
-
           $(document).on("shiny:connected", function(event) { setHeight(); });
-
           $(window).on("resize", function(){ setHeight(); });
      '
 

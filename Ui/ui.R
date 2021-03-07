@@ -17,7 +17,6 @@ ns <- NS( id )
     dashboardSidebar(
             useShinyjs(),
       uiOutput("srcUi"),
-      # uiOutput("downloadClassifiedData"),
       uiOutput('tabsMenuUiOutput'),
             sidebarMenu(
                     id = "User Name2",

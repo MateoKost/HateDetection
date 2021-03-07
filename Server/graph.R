@@ -1,6 +1,6 @@
 sentimentGraph <- function(input, output, session, nets) {
   attitudePalette <- c('N' = '#F2134F', 'U' = '#3238A6')
-  
+
   lapply(seq_along(nets), function(i) {
     output[[paste0('attitudeGraph', i)]] <-
       renderPlot(width = "auto", height = "auto", res = 72,
@@ -55,10 +55,17 @@ sentimentGraph <- function(input, output, session, nets) {
                    )
                  })
   })
+
+  
 }
 
 calculateGraph <-
   function(input, output, session, users, sentiments) {
+
+
+    
+    
+    
     sentiments %<>% arrange(category)
     users %<>% arrange(category)
     
@@ -119,6 +126,9 @@ calculateGraph <-
                                       group, length(group_users_ids$user_id)
                                     ))))
       }
+      
+      
+ 
       
       list(day = sday,
            igraph = graph_from_data_frame(links, vertices = vertices, directed = F))
