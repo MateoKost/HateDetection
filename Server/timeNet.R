@@ -125,7 +125,7 @@ negSensTimeline <- function( input, output, session, nets, current_week ) {
                         
                        # View( are.connected(net, V(net)[which(name %in% days)], V(net)[which(attitude=='N')] ))
                         
-                        V(net)$strength %>% View()
+                        # V(net)$strength %>% View()
                         
                         
                         

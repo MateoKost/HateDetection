@@ -8,10 +8,20 @@ server <- function(input, output, session) {
   
   output$srcUi <- startUi(input, output, session)
   
+  
+  
   observeEvent(input$startBtn2, {
     toggle('startBtn2')
     
-    load(input$rdataFile$datapath)
+    # rdata = load(input$rdataFile$datapath)
+    
+    sentiments = fromJSON( input$sentimentsJson$datapath )
+    users = fromJSON( input$usersJson$datapath )
+    
+    
+    # View(rdata)
+    # sentiments = rdata['sentiments']
+    # users = rdata['users']
     
     show_modal_spinner(spin = "cube-grid",
                        color = "firebrick",

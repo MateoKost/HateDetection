@@ -6,14 +6,13 @@ ns <- NS( id )
   dashboardPage(
     skin = 'purple',
     dashboardHeader(
-      title = "Wykrywanie zagrożeń"
-      # tags$li(
-      #   class = 'dropdown', style = 'display: flex;',
-      #   actionLink( 'manual', "Instrukcja", icon = NULL ),
-      #   a( "GitHub", href = "https://github.com/MateoKost/inz_R", 
-      #      target = "_blank" ),
-      #   actionLink( 'contact', "Kontakt", icon = NULL )
-      # )
+      title = "Wykrywanie zagrożeń",
+      tags$li(
+        class = 'dropdown', style = 'display: flex;',
+        a( "GitHub", href = "https://github.com/MateoKost",
+           target = "_blank" ),
+        actionLink( 'contact', "Kontakt", icon = NULL )
+      )
     ),
     dashboardSidebar(
             useShinyjs(),

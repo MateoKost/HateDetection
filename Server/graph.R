@@ -62,7 +62,7 @@ calculateGraph <-
     sentiments %<>% arrange(category)
     users %<>% arrange(category)
     
-    View(sentiments)
+    # View(sentiments)
     
     sentiments %<>% mutate(day = as.Date(created_at, format = "%Y-%m-%d")) %>% arrange(day)
     

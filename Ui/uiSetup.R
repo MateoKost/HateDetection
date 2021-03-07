@@ -3,9 +3,18 @@ startUi <- function( input, output, session ) {
                 sidebarMenu(
                 id = 'rdataSM',
                 fileInput(
-                        "rdataFile",
-                        label = "Wybierz plik .RData",
-                        accept = ".RData",
+                        "sentimentsJson",
+                        label = "Wybierz wpisy",
+                        accept = ".JSON",
+                        buttonLabel = "Otwórz...",
+                        multiple = FALSE,
+                        placeholder = "Nie wybrano"
+                ),
+                
+                fileInput(
+                        "usersJson",
+                        label = "Wybierz użytkowników",
+                        accept = ".JSON",
                         buttonLabel = "Otwórz...",
                         multiple = FALSE,
                         placeholder = "Nie wybrano"
