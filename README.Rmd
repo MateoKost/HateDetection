@@ -20,8 +20,12 @@ Na potrzeby wizualizacji skonstruowano las (cztery drzewa) z czterema korzeniami
 
 **Rys.1** obrazuje nastroje użytkowników portalu Twitter dla każdego dnia. Wybrano i zobrazowano pierwszy analizowany dzień. Zgodnie z legendą: kolorem czerwonym i literą oznaczono wpisy i użytkowników sklasyfikowanych jako negatywne, a kolorem niebieskim wpisy neutralne. Liczba wypowiedzi w rozpatrywanym tygodniu wynosiła ok. 6700.
 
-<center>![alt text here](Diagrams/1.png)</center>
+<center>![alt text here](Diagrams/1c.png)</center>
+<center>![alt text here](Diagrams/1d.png)</center>
+<center>![alt text here](Diagrams/1a.png)</center>
+<center>![alt text here](Diagrams/1b.png)</center>
 <center>**Rys.1. Przykład dobowego grafu nastrojów**</center>
+
 
 ## Grafowa analiza modeli autorów negatywnych wypowiedzi
 
