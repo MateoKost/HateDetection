@@ -39,7 +39,7 @@ Liczba wypowiedzi w rozpatrywanym tygodniu wynosiła ok. 6700.
 
 <center>
 
-![alt text here](Diagrams/1c.png)
+![alt text here](https://github.com/MateoKost/HateDetection/blob/master/Diagrams/1a.PNG?raw=true)
 
 </center>
 
