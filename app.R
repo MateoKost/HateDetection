@@ -26,7 +26,7 @@ appFlow <- function(input, output, session, sentiments, users) {
                      text = "Przetwarzanie danych...")
   
   output$tabsMenuUiOutput <- tabsMenuUi (input, output, session)
-  
+  output$tabTimeFiltersUi <- timeFiltersUi( input, output, session, sId ) 
   current_week  <-
     callModule(retieveDays, sId , sentiments[1,]$created_at)
   

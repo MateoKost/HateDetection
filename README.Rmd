@@ -1,0 +1,31 @@
+---
+title: "Twitter hate detector"
+author: "Mateusz Kostrzewski"
+date: "March 8, 2021"
+output: github_document
+---
+
+#### ShinyApp.io: [hatedetection](https://matheok.shinyapps.io/hatedetection/)
+#### Kaggle: [polish-twitter-sentiments](https://www.kaggle.com/mateuszkostrzewski/polish-twitter-sentiments)
+
+## Introduction
+
+The feature is shown in **Pic.1**.
+
+<center>
+![alt text here](Diagrams/1.png)
+**Pic.1. Process of gathering negative words dataset**
+</center>
+
+
+The feature is shown in **Pic.2**.
+
+<center>![alt text here](Diagrams/2.png)</center>
+<center>**Pic.2. Process of input list supplementation**</center>
+
+The feature is shown in **Pic.3**.
+
+<center>![alt text here](Diagrams/3.png)</center>
+<center>**Pic.2. Process of input list supplementation**</center>
+
+## Tools

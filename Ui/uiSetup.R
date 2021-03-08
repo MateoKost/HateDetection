@@ -19,11 +19,13 @@ startUi <- function( input, output, session ) {
                         multiple = FALSE,
                         placeholder = "Nie wybrano"
                 ),
+                
                 tags$style("
                .btn-file { background-color:#F2134F; color:white;}
                .progress-bar { background-color: #F2134F;}
           "
                 )
+
                 )
         })
 }
@@ -32,10 +34,13 @@ startUi <- function( input, output, session ) {
 tabsMenuUi <- function( input, output, session ) {
         renderUI({
                 sidebarMenu(
+                        hr(),
+                sidebarMenu(
                         id='analysisTabsMenu',
                         menuItem( "Nastroje", tabName = "tabAttitudeGUI", icon = icon("pie-chart") ),
                         menuItem("Analiza czasowa", icon = icon("user-times"), tabName = "tabTimeGUI"),
                         menuItem("Hate - odpowiedź", icon = icon("reply"), tabName = "hateReplyGUI")       
+                )
                 )
         })
 }

@@ -9,22 +9,26 @@ ns <- NS( id )
       title = "Wykrywanie zagrożeń",
       tags$li(
         class = 'dropdown', style = 'display: flex;',
-        a( "GitHub", href = "https://github.com/MateoKost",
-           target = "_blank" ),
-        actionLink( 'contact', "Kontakt", icon = NULL )
+        a( "GitHub", href = "https://github.com/MateoKost/HateDetection",
+           target = "_blank" )
+      ),
+      tags$li(
+        class = 'dropdown', style = 'display: flex;',
+        a( "Kaggle", href = "https://www.kaggle.com/mateuszkostrzewski/polish-twitter-sentiments",
+           target = "_blank" )
       )
     ),
     dashboardSidebar(
             useShinyjs(),
       uiOutput("srcUi"),
-      uiOutput('tabsMenuUiOutput'),
             sidebarMenu(
                     id = "User Name2",
                     actionButton(
                             "startBtn2", "Eksploruj", width='200px', class = 'taskBtn-red',
                             style = actionButtonStyle, icon = icon("chart-bar"),
                     )
-            )
+            ),
+      uiOutput('tabsMenuUiOutput')
     ), 
     dashboardBody(
       dashUi(id),
