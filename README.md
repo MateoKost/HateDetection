@@ -39,25 +39,7 @@ Liczba wypowiedzi w rozpatrywanym tygodniu wynosiła ok. 6700.
 
 <center>
 
-![alt text here](Diagrams/1c.png)
-
-</center>
-
-<center>
-
-![alt text here](Diagrams/1d.png)
-
-</center>
-
-<center>
-
-![alt text here](Diagrams/1a.png)
-
-</center>
-
-<center>
-
-![alt text here](Diagrams/1b.png)
+![alt text here](Diagrams/1.png)
 
 </center>
 

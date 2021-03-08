@@ -1,0 +1,13 @@
+name: hatedetection
+title:
+username:
+account: matheok
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3748029
+bundleId: 4315759
+url: https://matheok.shinyapps.io/hatedetection/
+when: 1615201942.6983
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|changeNames.R|Hate Detection.html|Data/classified_sentiments_users.RData
