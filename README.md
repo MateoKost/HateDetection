@@ -39,7 +39,7 @@ Liczba wypowiedzi w rozpatrywanym tygodniu wynosiła ok. 6700.
 
 <center>
 
-![alt text here](Diagrams/1.png)
+![alt text here](https://github.com/MateoKost/HateDetection/blob/master/Diagrams/1.PNG?raw=true)
 
 </center>
 
@@ -116,7 +116,7 @@ wierzchołków stanu w zależności od nastawienia w danym dniu.
 
 <center>
 
-![alt text here](Diagrams/6.png)
+![alt text here](https://github.com/MateoKost/HateDetection/blob/master/Diagrams/6.PNG?raw=true)
 
 </center>
 
@@ -133,7 +133,7 @@ grafu historii wpisów.
 
 <center>
 
-![alt text here](Diagrams/3.png)
+![alt text here](https://github.com/MateoKost/HateDetection/blob/master/Diagrams/3.PNG?raw=true)
 
 </center>
 
